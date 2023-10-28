@@ -1,0 +1,56 @@
+.swiper {
+  width: 80%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background: rgb(49,49,49);
+  background: linear-gradient(0deg, rgba(49,49,49,1) 4%, rgba(0,0,0,1) 29%, rgba(0,0,0,1) 51%);
+  border-radius: 2rem;
+
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 600px;
+  height: 300px;
+  /* height: 300px; */
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+
+/* **********  Responsive  ********** */
+@media (max-width: 400px) {
+  .swiper {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background: rgb(34,34,34);
+    background: linear-gradient(0deg, rgb(99, 99, 99) 1%, rgba(0,0,0,1) 85%);
+    border-radius: 2rem;
+  }
+
+  .swiper-slide {
+    width: 100vw;
+    height: 280px; 
+  }
+}
+@media ( (min-width:401px) and (max-width:700px))
+{
+  .swiper {
+    background: rgb(34,34,34);
+    background: linear-gradient(0deg, rgb(80, 80, 80) 1%, rgba(0,0,0,1) 85%);
+    border-radius: 2rem;
+  }
+}
+@media ( (min-width:701px) and (max-width:870px))
+{
+  .swiper {
+    background: rgb(34,34,34);
+    background: linear-gradient(0deg, rgb(80, 80, 80) 1%, rgba(0,0,0,1) 85%);
+    border-radius: 2rem;
+  }
+}

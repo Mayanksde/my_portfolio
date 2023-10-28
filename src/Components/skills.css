@@ -1,0 +1,366 @@
+.skillbox{
+    height: 8rem;
+    width: 8rem;
+    background-color: white;
+    border-radius: 50%;
+}
+#skills{
+    height: fit-content;
+    max-width: 75rem;
+    margin: 0 auto;
+    overflow: hidden;
+    margin-bottom: 3rem;
+}
+.skillstitle{
+    display: flex;
+    justify-content: center;
+    font-size: 2.5rem;
+    font-weight: bolder;
+}
+.skilldescription{
+    display: flex;
+    justify-content: center;
+    font-size: 1.1rem;
+    word-spacing: 0.2rem;
+}
+.allskillbar{
+    height: 32rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.skillone{
+    /* border: 1px solid white; */
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.skillonetitle{
+    width: 20rem;
+    display: flex;
+    justify-content: center;
+
+}
+.skilloneline{
+    border: 1px solid rgb(0, 0, 120);
+    width: 40rem;
+    height: 6px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.firstline{
+    width: 39rem;
+    background-color: #00bfff;
+    height: 4px;
+    border-radius: 15px;
+}
+.secondline{
+    width: 37rem;
+    background-color: #00bfff;
+    height: 4px;
+    border-radius: 15px;
+}
+.thirdline{
+    width: 30rem;
+    background-color: #00bfff;
+    height: 4px;
+    border-radius: 15px;
+}
+.fourthline{
+    width: 31rem;
+    background-color: #00bfff;
+    height: 4px;
+    border-radius: 15px;
+}
+.fifthline{
+    width: 37rem;
+    background-color: #00bfff;
+    height: 4px;
+    border-radius: 15px;
+}
+.sixline{
+    width: 36rem;
+    background-color: #00bfff;
+    height: 4px;
+    border-radius: 15px;
+}
+.sevenline{
+    width: 35rem;
+    background-color: #00bfff;
+    height: 4px;
+    border-radius: 15px;
+}
+.eightline{
+    width: 35rem;
+    background-color: #00bfff;
+    height: 4px;
+    border-radius: 15px;
+}
+.nineline{
+    width: 20rem;
+    background-color: #00bfff;
+    height: 4px;
+    border-radius: 15px;
+}
+.allskillbarmob{
+    display: none;
+}
+
+/* **********  Responsive  ********** */
+@media (max-width: 400px) {
+    .skillbox{
+        height: 8rem;
+        width: 8rem;
+        background-color: white;
+        border-radius: 50%;
+    }
+    #skills{
+        height: fit-content;
+        width: 98%;
+        /* border: 1px solid white; */
+    }
+    .skillstitle{
+        font-size: 1.8rem;
+    }
+    .skilldescription{
+        font-size: 0.8rem;
+        width: 100%;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        word-spacing: 0.15rem;
+        /* border: 1px solid white; */
+
+    }
+    .allskillbar{
+        display: none;
+    }
+    .allskillbarmob{
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+        margin-bottom: 3rem;
+    }
+    .skillonemob{
+        display:flex;
+        flex-direction: column;
+       
+    }
+    .skillonetitlemob{
+        width: fit-content;
+        display: flex;
+        justify-content: center;
+        font-size: 0.7rem;
+        margin-left: 1.1rem;
+        padding-bottom: 0.2rem;
+    
+    }
+    .skillonelinemob{
+        border: 1px solid rgb(0, 0, 158);
+        width: 90%;
+        height: 6px;
+        border-radius: 6px;
+        margin: auto;
+        margin-top: 0;
+
+    }
+    
+    .firstlinemob{
+        width: 98%;
+        background-color: #00bfff;
+        height: 4.1px;
+        border-radius: 15px;
+
+    }
+    .secondlinemob{
+        width: 95%;
+        background-color: #00bfff;
+        height: 4.1px;
+        border-radius: 15px;
+    }
+    .thirdlinemob{
+        width: 90%;
+        background-color: #00bfff;
+        height: 4.1px;
+        border-radius: 15px;
+    }
+    .fourthlinemob{
+        width: 91%;
+        background-color: #00bfff;
+        height: 4.1px;
+        border-radius: 15px;
+    }
+    .fifthlinemob{
+        width: 89%;
+        background-color: #00bfff;
+        height: 4.1px;
+        border-radius: 15px;
+    }
+    .sixlinemob{
+        width: 84%;
+        background-color: #00bfff;
+        height: 4.1px;
+        border-radius: 15px;
+    }
+    .sevenlinemob{
+        width: 92%;
+        background-color: #00bfff;
+        height: 4.1px;
+        border-radius: 15px;
+    }
+    .eightlinemob{
+        width: 90%;
+        background-color: #00bfff;
+        height: 4.1px;
+        border-radius: 15px;
+    }
+    .ninelinemob{
+        width: 80%;
+        background-color: #00bfff;
+        height: 4.1px;
+        border-radius: 15px;
+    }
+}
+
+@media ( (min-width:401px) and (max-width:700px))
+{
+  
+    #skills{
+        height: fit-content;
+        width: 36.8rem;        
+        padding: 1.5rem;
+    }
+    .skillstitle{
+        font-size: 2rem;
+        /* margin: auto; */
+    }
+    .skilldescription{
+        font-size: 1.1rem;
+        width: 100%;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        word-spacing: 0.15rem;
+        /* border: 1px solid white; */
+
+    }
+    .allskillbar{
+        display: flex;
+        /* border: 1px solid white; */
+        height: 30rem;
+        width: 100%;
+    }
+    .skillonetitle{
+        width: 8rem;
+    }
+    .skilloneline{
+        border: 1px solid rgb(0, 0, 120);
+        width: 20rem;
+    }
+
+    .firstline{
+        width: 19rem;
+    }
+    .secondline{
+        width: 17rem;
+    }
+    .thirdline{
+        width: 14rem;
+    }
+    .fourthline{
+        width: 14rem;
+    }
+    .fifthline{
+        width: 17rem;
+    }
+    .sixline{
+        width: 16rem;
+    }
+    .sevenline{
+        width: 15rem;
+    }
+    .eightline{
+        width: 15rem;
+    }
+    .nineline{
+        width: 10rem;
+    }
+    .allskillbarmob{
+      display: none;
+    }
+ 
+}
+
+@media ( (min-width:701px) and (max-width:900px))
+{
+    #skills{
+        height: fit-content;
+        width: 45rem;        
+        /* border: 1px solid white; */
+        padding: 1.5rem;
+    }
+    .skillstitle{
+        font-size: 2.1rem;
+    }
+    .skilldescription{
+        font-size: 1.1rem;
+        width: 100%;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        word-spacing: 0.15rem;
+        /* border: 1px solid white; */
+
+    }
+    .allskillbar{
+        display: flex;
+        /* border: 1px solid white; */
+        height: 30rem;
+        width: 100%;
+    }
+    .skillonetitle{
+        width: 8rem;
+    }
+    .skilloneline{
+        border: 1px solid rgb(0, 0, 120);
+        width: 30rem;
+    }
+
+    .firstline{
+        width: 29rem;
+    }
+    .secondline{
+        width: 27rem;
+    }
+    .thirdline{
+        width: 24rem;
+    }
+    .fourthline{
+        width: 24rem;
+    }
+    .fifthline{
+        width: 27rem;
+    }
+    .sixline{
+        width: 26rem;
+    }
+    .sevenline{
+        width: 25rem;
+    }
+    .eightline{
+        width: 25rem;
+    }
+    .nineline{
+        width: 20rem;
+    }
+
+
+
+    .allskillbarmob{
+      display: none;
+    }
+
+}
+
+
+

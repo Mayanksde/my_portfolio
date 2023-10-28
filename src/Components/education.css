@@ -1,0 +1,255 @@
+#alleducation {
+  color: white;
+  height: 600px;
+  max-width: 75rem;
+  margin: 0 auto;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.box {
+  width: 89%;
+  height: 260px;
+  display: flex;
+  gap: 6rem;
+}
+.box span {
+  color: yellow;
+}
+
+.box-content {
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: transform 0.5s, background-color 0.3s;
+  display: flex;
+  flex-direction: row;
+}
+
+.box-content2 {
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: transform 0.5s, background-color 0.3s;
+  display: flex;
+  flex-direction: row;
+}
+
+.box-content3 {
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: transform 0.5s, background-color 0.3s;
+  display: flex;
+  flex-direction: row;
+}
+
+.boxfront,
+.boxback,
+.boxfront2,
+.boxfront3,
+.boxback2,
+.boxback3 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  backface-visibility: hidden;
+  padding: 2rem;
+  border-radius: 50%;
+  border: 1px solid rgb(109, 109, 255);
+  box-shadow: 0px 0px 10px blue;
+}
+
+.boxfront {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: opacity 0.8s;
+  opacity: 1;
+}
+.boxback {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: opacity 0.8s;
+  box-shadow: 0px 0px 60px rgb(124, 124, 188);
+  opacity: 0;
+}
+.boxfront2 {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: opacity 0.8s;
+  opacity: 1;
+}
+.boxback2 {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: opacity 0.8s;
+  box-shadow: 0px 0px 60px rgb(124, 124, 188);
+  opacity: 0;
+}
+.boxfront3 {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: opacity 0.8s;
+  opacity: 1;
+}
+.boxback3 {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: opacity 0.7s;
+  box-shadow: 0px 0px 60px rgb(124, 124, 188);
+  opacity: 0;
+}
+.box-content:hover .boxfront {
+  opacity: 0;
+}
+.box-content:hover .boxback {
+  opacity: 1;
+}
+.box-content2:hover .boxfront2 {
+  opacity: 0;
+}
+.box-content2:hover .boxback2 {
+  opacity: 1;
+}
+.box-content3:hover .boxfront3 {
+  opacity: 0;
+}
+.box-content3:hover .boxback3 {
+  opacity: 1;
+}
+
+/* **********  Responsive  ********** */
+@media (max-width: 400px) {
+  #alleducation {
+    height: fit-content;
+    /* max-width: 75rem; */
+    margin-top: 2rem;
+  }
+  .box {
+    margin-top: 0.11rem;
+    width: 89%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+  }
+  .box-content {
+    width: 75%;
+    height: 13rem;
+  }
+
+  .box-content2 {
+    width: 75%;
+    height: 13rem;
+  }
+
+  .box-content3 {
+    width: 75%;
+    height: 13rem;
+  }
+  .boxfront,
+  .boxback,
+  .boxfront2,
+  .boxfront3,
+  .boxback2,
+  .boxback3 {
+    font-size: 0.9rem;
+  }
+}
+
+
+@media ( (min-width:401px) and (max-width:700px))
+{
+  #alleducation {
+    height: fit-content;
+    width: 36.8rem;        
+    padding: 1.5rem;
+    margin-top: 2rem;
+  }
+  .box {
+    margin-top: 0.11rem;
+    width: 95%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+  }
+  .box-content {
+    width: 90%;
+    height: 12rem;
+  }
+
+  .box-content2 {
+    width: 90%;
+    height: 12rem;
+  }
+
+  .box-content3 {
+    width: 90%;
+    height: 12rem;
+  }
+  .boxfront,
+  .boxback,
+  .boxfront2,
+  .boxfront3,
+  .boxback2,
+  .boxback3 {
+    font-size: 0.8rem;
+  }
+}
+
+@media ( (min-width:701px) and (max-width:900px))
+{
+  #alleducation {
+    height: fit-content;
+    width: 45rem;        
+    padding: 1.5rem;
+    margin-top: 2rem;
+  }
+
+  .box {
+    margin-top: 0.11rem;
+    width: 95%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+  }
+  .box-content {
+    width: 90%;
+    height: 12rem;
+  }
+
+  .box-content2 {
+    width: 90%;
+    height: 12rem;
+  }
+
+  .box-content3 {
+    width: 90%;
+    height: 12rem;
+  }
+  .boxfront,
+  .boxback,
+  .boxfront2,
+  .boxfront3,
+  .boxback2,
+  .boxback3 {
+    font-size: 0.8rem;
+  }
+
+}

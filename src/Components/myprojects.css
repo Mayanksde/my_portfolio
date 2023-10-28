@@ -1,0 +1,80 @@
+ .projectpara{
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+    font-size: 2.5rem;
+}
+#projectsection{
+    height:fit-content;
+    max-width: 75rem;
+    margin: 0 auto;
+    overflow: hidden;
+    margin-bottom: 3rem;
+   
+}
+.projectdescription{
+    font-size: 1.1rem;
+    display: flex;
+    justify-content: center;
+    word-spacing: 0.2rem;
+}
+/* **********  Responsive  ********** */
+@media (max-width: 400px) {
+    .projectpara{
+        font-size: 1.8rem;
+    }
+    #projectsection{
+        height:fit-content;
+        max-width: 75rem;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+    .projectdescription{
+        font-size: 0.8rem;
+        width: 100%;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        word-spacing: 0.15rem;
+    }
+}
+
+@media ( (min-width:401px) and (max-width:700px))
+{
+    #projectsection{
+        height:fit-content;
+        width: 36.8rem;        
+        padding: 1.5rem;
+    }
+    .projectpara{
+        font-size: 2rem;
+    }
+    .projectdescription{
+        font-size: 1.1rem;
+        width: 100%;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        word-spacing: 0.15rem;
+    }
+}
+
+@media ( (min-width:701px) and (max-width:900px))
+{
+    #projectsection{
+        height:fit-content;
+        width: 45rem;        
+        /* border: 1px solid white; */
+        padding: 1.5rem;
+        /* border: 1px solid white; */
+    }
+    .projectpara{
+        font-size: 2.1rem;
+    }
+    .projectdescription{
+        font-size: 1.1rem;
+        width: 100%;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        word-spacing: 0.15rem;
+    }
+
+}

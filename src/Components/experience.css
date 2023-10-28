@@ -1,0 +1,88 @@
+#allexperience {
+  color: white;
+  height: 750px;
+  max-width: 75rem;
+  margin: 0 auto;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.experience1box {
+  border: 1px solid rgb(0, 0, 0);
+  width: 90%;
+  padding: 1.5rem;
+  background: rgb(56, 56, 56);
+  background: linear-gradient(
+    0deg,
+    rgba(56, 56, 56, 1) 9%,
+    rgba(24, 24, 24, 1) 37%,
+    rgba(0, 0, 0, 1) 79%
+  );
+  border-radius: 25px;
+}
+.experience1box:hover {
+  /* box-shadow: 1px 1px 20px white; */
+  background-color: rgb(36, 36, 36);
+  transition: 0.5s;
+  border-radius: 1rem;
+}
+.experience1box h1 {
+  font-size: 1.6rem;
+}
+.experience1box p {
+  font-size: 1.2rem;
+  color: yellow;
+}
+
+/* **********  Responsive  ********** */
+@media (max-width: 400px) {
+  #allexperience {
+    height: fit-content;
+    margin-top: 2rem;
+  }
+  .experience1box h1 {
+    font-size: 1.1rem;
+  }
+  .experience1box p {
+    font-size: 1rem;
+  }
+  .experience1box ul {
+    font-size: 0.8rem;
+  }
+}
+
+
+@media ( (min-width:401px) and (max-width:700px))
+{
+  #allexperience {
+    height: fit-content;
+    width: 36.8rem;        
+    padding: 1.5rem;
+    margin-top: 2rem;
+    }
+  .experience1box h1 {
+    font-size: 1.1rem;
+  }
+  .experience1box p {
+    font-size: 1rem;
+  }
+  .experience1box ul {
+    margin-top: 1rem;
+    font-size: 1rem;
+  }
+}
+
+@media ( (min-width:701px) and (max-width:900px))
+{
+  #allexperience {
+    height: fit-content;
+    width: 45rem;        
+    padding: 1.5rem;
+    margin-top: 2rem;
+    }
+    .experience1box ul {
+      margin-top: 1rem;
+    }
+}
