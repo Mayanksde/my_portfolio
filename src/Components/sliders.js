@@ -13,6 +13,7 @@ import project2 from "../Assets/passwordgenerator.png";
 import project3 from "../Assets/chair.png";
 import project4 from "../Assets/Gallery.png";
 import project5 from "../Assets/parallax.png";
+import project6 from "../Assets/Calculator.png";
 
 // import required modules
 import { EffectCoverflow, Pagination } from "swiper/modules";
@@ -41,6 +42,9 @@ export default function ImageSlider() {
         </SwiperSlide>
         <SwiperSlide>
           <a href="https://mayankmishra-passwordgenerator.netlify.app/" target="blank"> <img src={project2} /></a>
+        </SwiperSlide>
+        <SwiperSlide>
+          <a href="https://github.com/Mayanksde/Scientific_Calculator" target="blank"> <img src={project6} /></a>
         </SwiperSlide>
         <SwiperSlide>
           <a href="https://mayankmishra-modernchair.netlify.app/" target="blank"> <img src={project3} /></a>

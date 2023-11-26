@@ -1,6 +1,5 @@
 import React, {useState} from 'react'
 import './navbar.css'
-import logo from '../Assets/logo.png'
 import mobmenu from '../Assets/mobicon.png'
 
 const Navbar = () => {

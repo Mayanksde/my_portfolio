@@ -1,6 +1,5 @@
 import React from "react";
 import "./contactme.css";
-import logo from "../Assets/logo.png";
 import insta from "../Assets/ins3.jpg";
 import facebook from "../Assets/facebook.png";
 import github from "../Assets/GitHub.png";
