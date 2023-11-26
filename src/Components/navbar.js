@@ -7,7 +7,6 @@ const Navbar = () => {
 
   return (
     <nav className="navbar">
-        {/* <img src={logo} alt="" /> */}
         <h1 className='navhead'>ᗰᗩYᗩᑎK</h1>
         <div className="desktopmenu">
             <a className='hometag' href="#intro">Home</a>
